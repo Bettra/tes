@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".DatagajiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA GAJI KARYAWAN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="#5531D6"
+        android:background="#C793E8"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_baseline_engineering_24"/>
+
+    <EditText
+        android:id="@+id/edNikahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Induk Karyawan"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edNkahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Karyawan"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edGjpahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Pokok"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edTjahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Jabatan"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edJhkahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Hari Kerja"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="HITUNG"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+     <EditText
+         android:id="@+id/edTmahmad"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Tunjangan Makan"
+         android:layout_marginTop="12dp"
+         android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edTtahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Transportasi"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edGkahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Kotor"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/edGbahmad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Bersih"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"/>
+
+
+
+
+
+
+</LinearLayout>

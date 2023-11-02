@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GAJI KARYAWAN"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#0A57DC"
+                android:background="#C793E8"
+                android:layout_marginBottom="17dp"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/safe12"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvGAjiahmad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo31"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GAJI"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="#2A5CA6"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvTentangahmad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo33"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TENTANG"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="#2A5CA6"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPetunjukahmad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo34"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PETUNJUK"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="#2A5CA6"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo32"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KELUAR"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="#2A5CA6"
+                        android:gravity="center"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.AhmadSukrii.com"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textColor="#C793E8"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
